@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "dest_1.txt",
 				"folderPath": "Output",
 				"container": "adfpractice"
 			},
