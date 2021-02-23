@@ -8,6 +8,12 @@
 		"AzureBlobStorage_connectionString": {
 			"value": ""
 		},
+		"AzureDataLakeStorage_LS_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage_LS_properties_typeProperties_url": {
+			"value": "https://demodatalake2021.dfs.core.windows.net"
+		},
 		"containerUri": {
 			"value": ""
 		},
