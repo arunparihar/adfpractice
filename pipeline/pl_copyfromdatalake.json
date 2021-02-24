@@ -61,6 +61,16 @@
 				]
 			}
 		],
+		"variables": {
+			"Directory": {
+				"type": "String",
+				"defaultValue": "abc"
+			},
+			"FileName": {
+				"type": "String",
+				"defaultValue": "abc"
+			}
+		},
 		"annotations": []
 	}
 }
