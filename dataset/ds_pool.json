@@ -5,6 +5,11 @@
 			"referenceName": "ls_pool",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Table": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlDWTable",
 		"schema": []
