@@ -12,6 +12,12 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlDWTable",
-		"schema": []
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().Table",
+				"type": "Expression"
+			}
+		}
 	}
 }
