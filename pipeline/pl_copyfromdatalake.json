@@ -46,10 +46,7 @@
 				"outputs": [
 					{
 						"referenceName": "ds_pool",
-						"type": "DatasetReference",
-						"parameters": {
-							"Table": "srcTable"
-						}
+						"type": "DatasetReference"
 					}
 				]
 			}
