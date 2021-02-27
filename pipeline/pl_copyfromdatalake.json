@@ -71,13 +71,13 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "TableName",
+					"variableName": "P_TableName",
 					"value": "SrcTable"
 				}
 			}
 		],
 		"variables": {
-			"TableName": {
+			"P_TableName": {
 				"type": "String"
 			}
 		},
