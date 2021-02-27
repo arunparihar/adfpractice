@@ -7,7 +7,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Set variable1",
+						"activity": "Set table variable",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -66,18 +66,21 @@
 				]
 			},
 			{
-				"name": "Set variable1",
+				"name": "Set table variable",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"variableName": "P_TableName",
+					"variableName": "P_varTableName",
 					"value": "SrcTable"
 				}
 			}
 		],
 		"variables": {
-			"P_TableName": {
+			"P_varTableName": {
+				"type": "String"
+			},
+			"Temp": {
 				"type": "String"
 			}
 		},
