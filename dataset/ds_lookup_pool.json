@@ -1,0 +1,12 @@
+{
+	"name": "ds_lookup_pool",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_pool",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": []
+	}
+}

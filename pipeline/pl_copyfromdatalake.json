@@ -58,7 +58,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"Table": {
-								"value": "'SrcTable'",
+								"value": "@activity('Lookup1').output",
 								"type": "Expression"
 							}
 						}
@@ -85,7 +85,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "ds_pool",
+						"referenceName": "ds_lookup_pool",
 						"type": "DatasetReference"
 					}
 				}
